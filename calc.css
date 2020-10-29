@@ -1,34 +1,40 @@
 div{
-	background-color: #334d4d;
+	background-image: url("https://cdn.wallpapersafari.com/87/72/0LKgOf.jpg");
 	margin: 50px;
 	width: 350px;
 	height: 550px;
 	margin: 0 auto;			/* horizontally centreing an element */
 	border-radius: 20px;
-	padding: 10px;
+  padding: 10px;
+  border: 2px solid rgba(128, 0, 128, 0.644);
+  margin-top: 10%;
 }
 
 header{
-	background-color: #d1e0e0;
+	background-color: #d492ec;
 	width: 330px;
-	height: 100px;
+	height: 50px;
 	border-radius: 20px;
 	margin: 0 auto;	
 	font-size: xx-large;
 	color: #000000;
 	text-align: center;
-
+  margin-top: 5%;
 }
 
-table{
+table {
+  font-family: 'Syne Mono', monospace;
 	background-color: #FFFFFF;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 10%;
 	margin-right: 10px;
 	margin-left: 10px;
-	border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid purple;
 }
-
+table img {
+  width: 80px;
+}
 td{
 	width: 110px;
 	height: 60px;
@@ -38,7 +44,8 @@ td{
 }
 
 .orange{
-	color: #ff3300;
+  color: #8e1caa;
+  font-weight: bolder;
 }
 
 td:active{
